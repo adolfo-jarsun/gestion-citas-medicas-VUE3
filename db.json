@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "email": "adolfo@test.net",
+      "password": "$2a$10$vOajtPdT9XC61mFL3HEJU.8kNJ.CG.F3kKKqquhaRdcux2mlx/PQW",
+      "name": "Adolfo",
+      "id": 1
+    }
+  ],
+  "pacientes": [
+    {
+      "nombre": "Juna Pinto",
+      "telefono": "7465328",
+      "email": "jpinto@gmail.com",
+      "id": 1
+    },
+    {
+      "nombre": "Marcelo Ruiz",
+      "telefono": "9487593",
+      "email": "mruiz@gmail.com",
+      "id": 2
+    }
+  ],
+  "medicos": [
+    {
+      "nombre": "Dr. Julio Pantoja",
+      "especialidad": "Gatroenterogolo",
+      "telefono": "7546302",
+      "email": "jpantoja@gmail.com",
+      "id": 1
+    }
+  ],
+  "citas": [
+    {
+      "pacienteId": 1,
+      "medicoId": 1,
+      "fecha": "2026-04-21T00:10",
+      "id": 1
+    },
+    {
+      "pacienteId": 2,
+      "medicoId": 1,
+      "fecha": "2026-04-22T00:10",
+      "id": 2
+    }
+  ]
+}
